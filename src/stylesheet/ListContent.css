@@ -1,0 +1,72 @@
+.LinkDiv {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+	background: #fff;
+	padding: 10px !important;
+	box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+}
+.RightDiv,
+.LeftDiv {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.RightDiv > span {
+	padding: 1px 5px;
+}
+.LeftDiv > span {
+	margin: 0 5px;
+}
+.LinkMainBlock {
+	padding: 5px;
+}
+.LinkCol {
+	padding: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+}
+.flex-vertical {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+.flex-vertical > span {
+	padding: 5px;
+}
+.flex-block {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: center;
+	align-items: center;
+	padding: 10px;
+}
+.flex-block > span {
+	width: 33.33%;
+	padding: 8px;
+}
+@media only screen and (max-width: 1500px) {
+	.flex-block > span {
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.flex-block > span {
+		width: 100%;
+	}
+}

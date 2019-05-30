@@ -1,0 +1,17 @@
+.Heading {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	justify-content: flex-start;
+	margin: 0 -2%;
+	/* width: 1000px; */
+}
+.Heading > span {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	justify-content: flex-start;
+	flex: 0.015 0 auto;
+}

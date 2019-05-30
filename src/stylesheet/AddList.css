@@ -1,0 +1,23 @@
+.Add {
+	background-color: transparent;
+	border: none;
+	overflow: hidden;
+	outline: none;
+	cursor: pointer;
+}
+.Add:hover {
+	background: transparent;
+}
+.primary {
+	border-radius: 5px;
+	width: 100px;
+	height: 35px;
+	background-color: #1890ff;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+	border-color: #1890ff;
+	border: none;
+	cursor: pointer;
+}
+.Text {
+	color: #ffffff;
+}

@@ -1,0 +1,9 @@
+.MyMenu {
+	position: relative;
+}
+.isVisible {
+	visibility: hidden;
+}
+.ant-menu-item-selected > .isVisible {
+	visibility: visible;
+}

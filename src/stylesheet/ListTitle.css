@@ -1,0 +1,35 @@
+.MoveList {
+	padding: 10px;
+}
+.AllowPermission {
+	font-size: 10px;
+}
+.ListName {
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+	background: #fff;
+	display: flex;
+	padding: 10px;
+	width: 100%;
+}
+.LeftItem {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	width: 90%;
+}
+.RightItem {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+}
+.LeftItem > span {
+	margin: 0 7px;
+	padding: 0 2px;
+}
+.RightItem > span {
+	margin: 0 10px;
+}
+.Star {
+	cursor: pointer;
+}

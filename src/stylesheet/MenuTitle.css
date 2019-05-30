@@ -1,0 +1,29 @@
+.MenuListName {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	width: 100%;
+}
+.LeftMenuItem {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	width: 1000px;
+}
+.RightMenuItem {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+}
+.LeftMenuItem > span {
+	margin: 0 7px;
+	padding: 0 2px;
+}
+.RightMenuItem > span {
+	margin: 0 10px;
+}
+.AddButtonSpan {
+	position: relative;
+	right: -25%;
+}

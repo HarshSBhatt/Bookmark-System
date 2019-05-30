@@ -1,0 +1,30 @@
+.Title {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+	padding: 15px;
+	/* border-bottom-style: solid;
+	border-width: 1px; */
+}
+/* .Left {
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: flex-start;
+} */
+.Right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+}
+.Left > span {
+	font-size: 30px;
+}
+.Right > span {
+	padding: 0 8%;
+}
+.hb {
+	cursor: pointer;
+}
